@@ -12,12 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bddab56-250b-4f71-bfa5-b4ed6ccd8ec0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/CaptureFlag.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/CaptureFlag.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CaptureFlag/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CaptureFlag/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaptureFlag.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/CaptureFlag.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Ivan/BP_Flag.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Ivan/BP_Flag.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Ivan/BP_ThirdPersonCharacter1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Ivan/BP_ThirdPersonCharacter1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Ivan/Lobby.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Ivan/Lobby.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/say/Map3.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/say/Map3.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Ivan/BP_GSGameplay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Ivan/BP_GSGameplay.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Ivan/BP_PowerUp.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Ivan/BP_PowerUp.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Ivan/BP_SpeedUp.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Ivan/BP_SpeedUp.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Ivan/BP_SuperJump.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Ivan/BP_SuperJump.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Ivan/BP_TPGM1_Gameplay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Ivan/BP_TPGM1_Gameplay.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +33,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://1" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://2" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="Toolset" />
@@ -497,6 +498,7 @@
       <updated>1737339845597</updated>
       <workItem from="1737339882575" duration="11781000" />
       <workItem from="1737354150375" duration="4928000" />
+      <workItem from="1737397123369" duration="6144000" />
     </task>
     <servers />
   </component>
