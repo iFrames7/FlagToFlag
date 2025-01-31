@@ -3,6 +3,8 @@
 
 #include "PlayerCharacter.h"
 #include "Engine/LocalPlayer.h"
+#include "Engine/World.h"
+#include "GameFramework/PlayerController.h"
 #include "Net/UnrealNetwork.h"
 #include "Engine/Engine.h"
 #include "OnlineSubsystem.h"
@@ -168,9 +170,24 @@ void APlayerCharacter::OnJoinSessionComplete(FName SessionName, EOnJoinSessionCo
 				-1, 20.f, FColor::Magenta, FString::Printf(TEXT("ADDRESS: %s"), *Address ));
 		}
 		
-		APlayerController* PlayerController = GetGameInstance()->GetFirstLocalPlayerController();
+		APlayerController* PlayerController = GetWorld()->GetFirstPlayerController();
 		if (PlayerController)
+		{
+			if (GEngine)
+			{
+				GEngine->AddOnScreenDebugMessage(
+					-1, 20.f, FColor::Blue, FString::Printf(TEXT("Player Controller was found")));
+			}
 			PlayerController->ClientTravel(Address, TRAVEL_Absolute);
+		}
+		else
+		{
+			if (GEngine)
+			{
+				GEngine->AddOnScreenDebugMessage(
+					-1, 20.f, FColor::Red, FString::Printf(TEXT("Player Controller was NOT found")));
+			}
+		}
 	}
 }
 
